@@ -2,8 +2,6 @@
 
 SoundScape é um projeto de loja online de fones de ouvido que oferece uma nova era de audição inteligente. Este projeto foi desenvolvido como parte de um exercício de prática de desenvolvimento web.
 
-![Banner](./img/preview.png)
-
 ## Funcionalidades
 
 - Exibição de fones de ouvido wireless com imagens e descrições.
