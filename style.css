@@ -242,3 +242,63 @@ header {
 .row3:hover{
     transform: translateY(-8px);
 }
+
+@media screen and (max-width: 768px) {
+    .home {
+        grid-template-columns: 1fr;
+        text-align: center;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+
+    .home-img img {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .home-text {
+        text-align: center;
+        margin-top: -150px;
+    }
+
+    .home-text h1 {
+        font-size: 2rem;
+
+    }
+
+    .navegacao {
+        display: none;
+    }
+
+    .headers-icons {
+        position: relative;
+        margin-left: 50px;
+    }
+
+    .menu-suspenso {
+        position: absolute;
+        top: 100%;
+        right: 0;
+}
+
+.main {
+    margin-top: 5px;
+}
+
+.row,
+.row2,
+.row3 {
+    width: 55px; 
+    height: 55px;
+}
+
+.row {
+    margin-top: 40px
+}
+
+.btn {
+    padding: 12px 50px; 
+    font-size: 14px; 
+}
+
+}
